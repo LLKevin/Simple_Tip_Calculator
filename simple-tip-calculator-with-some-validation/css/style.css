@@ -1,0 +1,54 @@
+html {
+  background-color: lightgrey;
+}
+
+body {
+  width: 300px;
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 3px 1px 1px black;
+}
+header {
+  background-color: grey;
+  color: white;
+  padding: 1%;
+  border-bottom: 1px solid black;
+  border-radius: 6px 6px 0 0;
+}
+header h3 {
+  font-size: 120%;
+  overflow-wrap: break-word;
+}
+
+form {
+  margin: auto;
+  padding: 20px;
+  border-radius: 6px;
+}
+form label,
+input {
+  margin: 10px;
+}
+form span {
+  color: red;
+}
+
+input,
+label {
+  width: 80%;
+}
+
+#calculate {
+  width: 80%;
+  padding: 15px;
+}
+
+#billMessage {
+  font-size: 20px;
+  font-weight: bold;
+}
